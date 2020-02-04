@@ -5,3 +5,7 @@ plugins {
 golang {
     packagePath = 'github.com/piyush/protorepo' // import path of project, not file system path!
 }
+dependencies {
+    golang {
+    }
+}
